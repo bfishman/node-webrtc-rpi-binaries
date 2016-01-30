@@ -11,7 +11,8 @@ wget https://github.com/js-platform/node-webrtc/archive/v0.0.59.tar.gz
 tar -xzvf v0.0.59.tar.gz
 wget https://github.com/bfishman/node-webrtc-rpi-binaries/archive/1.0.tar.gz
 tar -xzvf 1.0.tar.gz -C node-webrtc-0.0.59/
-
+cd node-webrtc-0.0.59/
+tar -xvf ./../1.0.tar.gz --strip-components=1
 ```
 - Now you can copy the `node-webrtc` folder and paste it under the `node_modules` folder of a node.js project.
 - From wihtin your node code simply call `require('node-webrtc')` and you're set.
