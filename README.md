@@ -3,7 +3,7 @@
 Build folder contains the node-webrtc binaries compiled for (on) armv71 architechture. 
 
 To use:
-- place the `build` folder from this repo into the `node-webrtc` repo's root, i.e.:
+- place the `build` folder from this repo into the `node-webrtc` folder, i.e.:
 
 ```
 cd ~
